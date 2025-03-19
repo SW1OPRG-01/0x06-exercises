@@ -2,6 +2,7 @@
 The Danish Police wants and new fleet management system (FMS) to optimize patrolling in the different districts.
 
 **Requirements**
+
 Given a fleet of _vehicles_, the system shall 
 - be capable of identifying the vehicle nearest
 to a location provided by the user in the format LAT LNG , (e.g. `56.13466783419156 10.205487752946347`)
@@ -45,9 +46,16 @@ ROMEO 2 (Honda Civic) is 1.95838 meters away
 Enter coordinates: 
 ```
 
+## Representing a vehicle
+Create a header file and a source file (`vehicle.h`, `vehicle.cpp`) and add the structure to the file.
+
+Remember to update `.vscode/task.json` to include the new file (only include the `.cpp` file).
 
 ## Representing GPS coordinates
 Consider the following: how could you use a `struct` to organize the function parameters?
+
+Don't forget to update the `Vehicle` struct to include the new `GeoLocation` struct and the new source file to `.vscode/task.json`.
+
 
 ### Calculating the distance between two GPS coordinates
 To take the curvature of the Earth into account, we'll use the Haversine formula. Create a header and source file the for following functions:
