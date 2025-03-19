@@ -32,8 +32,7 @@ Vehicle r1 = { "Honda", "Civic", 2, { 56.150191891576384, 10.204729114263282 }, 
 vector<Vehicle> fleet = { b0, b1, b2, h1, h2, r0, r1 };
 ```
 
-The program will prompt the user for latitude and longitude and return the vehicle closest to
-the provided location.
+The program will prompt the user for latitude and longitude and return the vehicle closest to the provided location.
 
 Example output
 ```
