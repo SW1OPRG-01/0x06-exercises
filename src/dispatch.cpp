@@ -1,9 +1,5 @@
 #include "dispatch.h"
 
-// double distance(Vehicle c, GeoLocation p) {
-//   return calculateDistance(c.location, p);
-// }
-
 double distance(Vehicle c, GeoLocation p) {
   return calculate_distance(c.location, p);
 }

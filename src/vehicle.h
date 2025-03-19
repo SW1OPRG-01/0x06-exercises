@@ -13,9 +13,9 @@ enum Type {
 
 struct Vehicle {
   string make, model;
+  Type type;
   int number;
   GeoLocation location;
-  Type type;
 };
 
 void print_vehicle(Vehicle);

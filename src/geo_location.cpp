@@ -9,7 +9,7 @@ double to_rad(double deg) {
 }
 
 // Calculate distance using Haversine formula
-double calculateDistance(GeoLocation loc1, GeoLocation loc2) {
+double calculate_distance(GeoLocation loc1, GeoLocation loc2) {
     // Earth radius in kilometers
     const double radius = 6371.0;
 
@@ -29,8 +29,4 @@ double calculateDistance(GeoLocation loc1, GeoLocation loc2) {
     double distance = radius * c;
 
     return distance;
-}
-
-double calculate_distance(GeoLocation p1, GeoLocation p2) {
-    return sqrt(pow(p2.latitude - p1.latitude, 2) + pow(p2.longitude - p1.longitude, 2));
 }
